@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#page1{
+    width: 100%;
+    height: 100vh;
+    /* background-color: rgb(97, 187, 216); */
+    background-image: url(https://images.unsplash.com/photo-1674996307713-44c0a4298b38?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    object-fit: cover;
+    object-position: center;
+}
+#page2{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(13, 175, 228);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#page3{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(3, 99, 132);
+}
+
+#page2 img{
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
